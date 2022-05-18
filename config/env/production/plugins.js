@@ -1,15 +1,7 @@
 module.exports = ({ env }) => ({
-  graphql: {
+  "users-permissions": {
     config: {
-      endpoint: "/graphql",
-      shadowCRUD: true,
-      playgroundAlways: true,
-      depthLimit: 7,
-      amountLimit: 100,
-      apolloServer: {
-        tracing: false,
-        introspection: true,
-      },
+      jwtSecret: env("JWT_SECRET"),
     },
   },
   upload: {
@@ -23,6 +15,19 @@ module.exports = ({ env }) => ({
       actionOptions: {
         upload: {},
         delete: {},
+      },
+    },
+  },
+  graphql: {
+    config: {
+      endpoint: "/graphql",
+      shadowCRUD: true,
+      playgroundAlways: true,
+      depthLimit: 7,
+      amountLimit: 100,
+      apolloServer: {
+        tracing: false,
+        introspection: true,
       },
     },
   },

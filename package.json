@@ -1,8 +1,8 @@
 {
-  "name": "new-scl-backend",
+  "name": "strapi-backend",
   "private": true,
   "version": "1.0.0",
-  "description": "Sunday Creative Lab Backend Application",
+  "description": "Strapi Backend",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
