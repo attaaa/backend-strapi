@@ -38,6 +38,16 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "journals"
+    },
+    "journal_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::journal-category.journal-category",
+      "inversedBy": "journals"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
