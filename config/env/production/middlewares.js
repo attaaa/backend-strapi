@@ -17,7 +17,7 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: env.array("CORS_ORIGIN_LIST"),
+      origin: ["*"],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
       keepHeaderOnError: true,
