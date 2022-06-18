@@ -17,7 +17,7 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: ["*"],
+      origin: ["https://dashboard.sundaystd.id"],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
       keepHeaderOnError: true,
