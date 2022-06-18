@@ -28,6 +28,11 @@ module.exports = ({ env }) => ({
       apolloServer: {
         tracing: false,
         introspection: true,
+        cors: {
+          credentials: true,
+          headers: ["Content-Type", "Accept", "Authorization", "POST", "PUT"],
+          origin: ["*"],
+        },
       },
     },
   },
