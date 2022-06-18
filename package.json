@@ -1,7 +1,7 @@
 {
   "name": "strapi-backend",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Strapi Backend",
   "scripts": {
     "dev": "strapi develop",
@@ -10,11 +10,11 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.1.11",
-    "@strapi/plugin-i18n": "4.1.11",
-    "@strapi/plugin-users-permissions": "4.1.11",
-    "@strapi/provider-upload-cloudinary": "^4.1.11",
-    "@strapi/strapi": "4.1.11",
+    "@strapi/plugin-graphql": "^4.2.0",
+    "@strapi/plugin-i18n": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/provider-upload-cloudinary": "^4.2.0",
+    "@strapi/strapi": "4.2.0",
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3"
   },
