@@ -17,9 +17,10 @@ module.exports = ({ env }) => [
   {
     name: "strapi::cors",
     config: {
-      enabled: true,
-      header: "*",
-      origin: env.array("CORS_ORIGIN_LIST", "https://dashboard.sundaystd.id"),
+      origin: ["dashboard.sundaystd.id", "api.sundaystd.id"],
+      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
+      headers: ["Content-Type", "Authorization", "Origin", "Accept"],
+      keepHeaderOnError: true,
     },
   },
   "strapi::poweredBy",
