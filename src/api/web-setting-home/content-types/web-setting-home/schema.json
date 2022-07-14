@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_setting_homes",
+  "info": {
+    "singularName": "web-setting-home",
+    "pluralName": "web-setting-homes",
+    "displayName": "Web Setting Home"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imgHeroBg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
