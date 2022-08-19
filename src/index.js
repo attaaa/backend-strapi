@@ -5,7 +5,7 @@ module.exports = {
    * An asynchronous register function that runs before
    * your application is initialized.
    *
-   * This gives you an opportunity to extend code.
+   * This gives you an opportunity to extend code. test
    */
   register({ strapi }) {
     const extensionService = strapi.plugin("graphql").service("extension");
