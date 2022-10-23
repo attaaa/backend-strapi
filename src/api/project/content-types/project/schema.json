@@ -45,6 +45,9 @@
     },
     "top_project": {
       "type": "boolean"
+    },
+    "labels_string": {
+      "type": "text"
     }
   }
 }
